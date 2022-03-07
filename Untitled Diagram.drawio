@@ -1,15 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T17:01:34.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ddvA6xlGm_yTPsqo2LLX" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T17:19:03.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="poZEeNlDaGetxR9XdwCN" version="16.6.7" type="github">
   <diagram id="qUXu5Glze9szJIzZEuCo" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="i3w6GY014pmjob9ndCjN-1" value="Start - &lt;br&gt;Enter CityU EID, select campaign" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qB_BLini7-oUf4WkdYDQ-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i3w6GY014pmjob9ndCjN-1">
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="110" y="110" as="sourcePoint" />
             <mxPoint x="110" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -157,17 +154,17 @@
         <mxCell id="qB_BLini7-oUf4WkdYDQ-41" value="Has the previous link expired?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="160" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qB_BLini7-oUf4WkdYDQ-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1130" y="260" as="sourcePoint" />
-            <mxPoint x="1130" y="320" as="targetPoint" />
+            <mxPoint x="1360" y="260" as="sourcePoint" />
+            <mxPoint x="1250" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-43" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="270" width="30" height="20" as="geometry" />
+          <mxGeometry x="1200" y="190" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-44" value="Send an email to the EID concerned with note on datetime the previous ballot was issued" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="1250" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-45" value="Generate a voter ID, unique string and encrypted voter ID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="900" y="320" width="120" height="80" as="geometry" />
@@ -198,6 +195,105 @@
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-52" value="Send an email to the EID concerned with polling links (identified by unique string)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-54" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-59" target="qB_BLini7-oUf4WkdYDQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-59" value="Check the previously generated encrypted voter ID, and assign a new unique string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="qB_BLini7-oUf4WkdYDQ-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1129.5" y="260" as="sourcePoint" />
+            <mxPoint x="1129.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="820" as="sourcePoint" />
+            <mxPoint x="110" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-66" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Is the link within validity period and polling is active?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="870" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1010" as="sourcePoint" />
+            <mxPoint x="110" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-68" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="980" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-69" value="Display &quot;link expired&quot; error message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="920" as="sourcePoint" />
+            <mxPoint x="220" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-71" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="900" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-73" value="Pass the encrypted voter ID to Voting System.&amp;nbsp;&lt;br&gt;Decrypt to get the voter ID and check the campaign assigned." style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="870" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="920" as="sourcePoint" />
+            <mxPoint x="390" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-75" value="Voter ID not used to vote before" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="870" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1010" as="sourcePoint" />
+            <mxPoint x="560" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1010" as="sourcePoint" />
+            <mxPoint x="450" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-78" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="900" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-79" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="980" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-80" value="Display &quot;already voted&quot; error message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-81" target="qB_BLini7-oUf4WkdYDQ-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-81" target="qB_BLini7-oUf4WkdYDQ-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-81" value="Display the ballot&lt;br&gt;&lt;br&gt;Voter select option and submit the vote" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="870" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-85" value="Record Voter ID, Campaign ID and Option selected in database, and display confirm screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="810" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-86" value="Record 1 vote received in Turnout Rate System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="930" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-89" value="&lt;span&gt;Open the polling link with unique string&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-90" value="Start -&lt;br&gt;Enter CityU EID, select campaign" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
