@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T16:42:55.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ETxZmvdLNUaSNLkIX4h4" version="16.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T17:01:34.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ddvA6xlGm_yTPsqo2LLX" version="16.6.7" type="github">
   <diagram id="qUXu5Glze9szJIzZEuCo" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="i3w6GY014pmjob9ndCjN-1" value="Start - &lt;br&gt;Enter Student ID Card Number" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i3w6GY014pmjob9ndCjN-1" value="Start - &lt;br&gt;Enter CityU EID, select campaign" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i3w6GY014pmjob9ndCjN-1">
@@ -13,20 +13,191 @@
             <mxPoint x="110" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qB_BLini7-oUf4WkdYDQ-2" value="Is the SID in SU Member List?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="160" width="120" height="100" as="geometry" />
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-2" value="Is the EID in SU Member List?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="300" as="sourcePoint" />
-            <mxPoint x="220" y="210" as="targetPoint" />
+            <mxPoint x="670" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qB_BLini7-oUf4WkdYDQ-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-6" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-8" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-9" value="Send an email to the EID concerned, &quot;No membership record found&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-10" value="Is the EID in Full Member List?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="260" as="sourcePoint" />
+            <mxPoint x="620" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-12" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-13" value="Send an email to the EID concerned, &quot;Membership type does not permit to vote&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Is the EID in alpha-numeric format, campaign is active, and correct CAPTCHA?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="210" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="300" as="sourcePoint" />
             <mxPoint x="110" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-17" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-18" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-19" value="Display error message on screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-20" value="For user&#39;s IP Address, issued less than 10 ballot in the last hour?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qB_BLini7-oUf4WkdYDQ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="300" as="sourcePoint" />
+            <mxPoint x="280" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-22" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-23" value="Rate limit error, refuse to continue unless unblocked by admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="220" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-25" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="210" as="sourcePoint" />
+            <mxPoint x="730" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-27" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-28" value="Is the membership active?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="260" as="sourcePoint" />
+            <mxPoint x="790" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-30" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="795" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-31" value="Send an email to the EID concerned, &quot;Membership expired&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="210" as="sourcePoint" />
+            <mxPoint x="900" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-33" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-34" value="Has the member voted before?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="260" as="sourcePoint" />
+            <mxPoint x="960" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-36" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="965" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="210" as="sourcePoint" />
+            <mxPoint x="1070" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-39" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-41" value="Has the previous link expired?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="260" as="sourcePoint" />
+            <mxPoint x="1130" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-43" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-44" value="Send an email to the EID concerned with note on datetime the previous ballot was issued" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-45" value="Generate a voter ID, unique string and encrypted voter ID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="959.5" y="400" as="sourcePoint" />
+            <mxPoint x="959.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-47" value="Create the voter ID and specify campaign ID in Voting System" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="959.5" y="540" as="sourcePoint" />
+            <mxPoint x="959.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-49" value="Store EID, unique string and encrypted voter ID in Member System" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="959.5" y="680" as="sourcePoint" />
+            <mxPoint x="959.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qB_BLini7-oUf4WkdYDQ-52" value="Send an email to the EID concerned with polling links (identified by unique string)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="740" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
